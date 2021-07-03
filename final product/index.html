@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <title>TODO-LIST</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>APPFACTORY 2021</h1>
+        <h2>TO-DO LIST APPLICATION</h2>
+        <h2>SPECIFICATION</h2>
+        <h4>Filter</h4>
+    </header>
+
+
+    <div class="add">
+        <input type="text" id="inputtodo" class="myInput" placeholder="list" autofocus>
+        <button class="todo-button" id="to_do_btn" type="button"> Add Item </button>
+        <br></br>
+    </div>
+
+
+    <div class="options">
+        <select name="todos" id="filter-todo" class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+    <div class="search-container">
+
+
+        <a href="#>"><i class="fa fa-search" id="fa" aria-hidden="true"></i></a>
+        <input type="text" name="" class="searching" id="searchtxt" placeholder="search">
+
+
+    </div>
+
+
+
+
+
+    <div class="todos">
+        <ul class="todo-list" id="items_todo">
+
+        </ul>
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

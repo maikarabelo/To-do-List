@@ -1,0 +1,73 @@
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 900px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: darkblue;
+}
+
+h4 {
+    color: white;
+    position: absolute;
+    top: 12%;
+    left: 80%;
+}
+
+.add {
+    position: absolute;
+    top: 15%;
+    margin-bottom: 50px;
+}
+
+select {
+    position: absolute;
+    top: 15%;
+    left: 83%;
+}
+
+input {
+    background-color: whitesmoke;
+}
+
+.search-container {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    width: 250px;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.search-container>input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+body {
+    background: linear-gradient(-25deg, violet 50%, fuchsia 50%);
+}
+
+.trash-btn,
+.complete-btn {
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(215, 217, 219);
+    margin: 0 0.8rem;
+}
+
+.completed {
+    text-decoration: line-through;
+}
